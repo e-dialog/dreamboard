@@ -20,11 +20,11 @@
  ***************************************************************************/
 
 export const environment = {
-  production: false,
-  videoGenerationApiURL: 'http://127.0.0.1:8000/api/video_generation',
-  imageGenerationApiURL: 'http://127.0.0.1:8000/api/image_generation',
-  textGenerationApiURL: 'http://127.0.0.1:8000/api/text_generation',
-  fileUploaderApiURL: 'http://127.0.0.1:8000/api/file_uploader',
-  storiesStorageApiURL: 'http://127.0.0.1:8000/api/story_storage',
-  clientID: '',
+  production: true,
+  videoGenerationApiURL: 'https://dreamboard-backend-301764438062.europe-west4.run.app/api/video_generation',
+  imageGenerationApiURL: 'https://dreamboard-backend-301764438062.europe-west4.run.app/api/image_generation',
+  textGenerationApiURL: 'https://dreamboard-backend-301764438062.europe-west4.run.app/api/text_generation',
+  fileUploaderApiURL: 'https://dreamboard-backend-301764438062.europe-west4.run.app/api/file_uploader',
+  storiesStorageApiURL: 'https://dreamboard-backend-301764438062.europe-west4.run.app/api/story_storage',
+  clientID: '301764438062-ddthpr0k5pq8dbn7csudgcna0sj01s20.apps.googleusercontent.com'
 };
