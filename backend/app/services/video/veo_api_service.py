@@ -30,7 +30,7 @@ from google.genai.types import GenerateVideosConfig, Image, HttpOptions, Generat
 from models.video import video_request_models
 from models.video.video_gen_models import Video, VideoGenerationResponse
 
-DEFAULT_MODEL_NAME = "veo-3.0-generate-preview"
+DEFAULT_MODEL_NAME = "video-generation-001"
 # "veo-2.0-generate-001"
 
 
